@@ -6,7 +6,7 @@ def to_camel_case(text):
         print(word)
         
         if not word[0].isupper() and word != splitted[0]:
-            result.append(word[0].upper() + word[1:])
+            result
         else:
             result.append(word)  
     
